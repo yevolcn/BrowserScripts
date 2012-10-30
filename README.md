@@ -11,5 +11,5 @@
 * Google Reader Readable.user.js	
 新版的GR，真心用起来不太爽，调整了一下样式
 
-* Weibo.user.js	
+* Weibo.user.js		
 调整微博左侧导航为跟随屏幕滚动
