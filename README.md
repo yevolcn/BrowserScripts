@@ -13,3 +13,6 @@
 
 * Weibo.user.js		
 调整微博左侧导航为跟随屏幕滚动
+
+* WgWideSwitch.user.js		
+QQ网购宽窄版切换（键盘左右方向键），基于[colinvivy]:https://github.com/colinvivy 脚本实现哈~~~
