@@ -1,0 +1,37 @@
+@charset "utf-8";
+/**
+ * alex debug tool.css
+ *
+ * @author alextang<colinvivy#gmail.com>
+ * @date 2012-08-22
+ */
+
+.alex_debug_toggle {background-image:url(/img_v1/alex_i_debug.png);background-repeat:no-repeat;}
+
+.alex_debug {width:150px;font:400 12px/21px Tahoma,Arial,Simsun;color:#777;position:fixed;_position:absolute;top:200px;right:10px;box-shadow:1px 1px 2px rgba(30,30,30,0.3);}
+.alex_debug_hd {height:25px;border-radius:2px 2px 0 0 ;color:#eee;
+background: #474747;
+background: -moz-linear-gradient(top,  #666666 0%, #333333 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#666666), color-stop(100%,#333333));
+background: -webkit-linear-gradient(top,  #666666 0%,#333333 100%);
+background: -o-linear-gradient(top,  #666666 0%,#333333 100%);
+background: -ms-linear-gradient(top,  #666666 0%,#333333 100%);
+background: linear-gradient(to bottom,  #666666 0%,#333333 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#333333',GradientType=0 );
+}
+.alex_debug_hd strong {float:left;font:400 12px/25px verdana,Arial,Simsun;text-indent:8px;text-shadow:1px 1px 2px #000;}
+.alex_debug_toggle {float:right;width:15px;height:15px;margin-top:5px;margin-right:5px;#display:inline;line-height:200px;overflow:hidden;background-position:-20px 0px;outline:none;}
+.alex_debug_toggle_close {background-position:0px 0px;}
+.alex_debug_bd {border:1px solid #666;border-top:0;padding:1px 0px 10px 8px;background-color:#fffff0;}
+.alex_debug_bd .widget_item {margin-top:5px;}
+
+/* refresh css */
+.alex_debug .alex_debug_notice {color:#f60;white-space:normal;word-break:break-all;word-wrap:break-word;}
+.alex_debug .btn_refresh_css_wrap {padding-left:60px;padding-right:8px;}
+.alex_debug .btn_refresh_css {margin-top:5px;line-height:23px;cursor:pointer;border-radius:2px;color:#eee;background:#444;text-align:center;box-shadow:1px 1px 1px #ccc;}
+.alex_debug label input {vertical-align:middle;}
+
+/* portal style */
+.test_control b{display:block;width:132px;height:26px;line-height:26px;text-align:center;background-color:#666;margin-bottom:5px;color:#fff;cursor:pointer;text-decoration:none;font-weight:normal}
+.test_control a{display:block;width:132px;height:42px;line-height:22px;text-align:center;background-color:#333;margin-bottom:5px;color:#fff;cursor:pointer;text-decoration:none}
+.test_control a span{display:block;line-height:18px;}
